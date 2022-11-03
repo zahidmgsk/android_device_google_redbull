@@ -16,6 +16,9 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 # turbo adapter
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
 
+# connectivity thermal power manager service
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
+
 # vendors
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy/vendor/google
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy/vendor/qcom/common
