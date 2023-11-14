@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2023 The Evolution X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -30,7 +31,7 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
 
 # Manifests
 DEVICE_MANIFEST_FILE += device/google/redbull/lineage_manifest.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/evolution/config/device_framework_matrix.xml
 
 # Needed for camera
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
@@ -52,8 +53,8 @@ BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 92160000
 endif
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-evolution/dynamic
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-evolution/vendor
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
