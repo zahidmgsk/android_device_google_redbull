@@ -235,6 +235,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor:64 \
     vendor.qti.hardware.systemhelper@1.0.vendor
 
+# Screen Attention
+PRODUCT_PACKAGES += \
+    AdaptiveSleepOverlay
+
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
 
