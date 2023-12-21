@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-V3-ndk.vendor:64 \
     android.hardware.security.rkp-V3-ndk.vendor:64 \
     android.hardware.thermal@1.0.vendor \
-    android.hardware.thermal@2.0.vendor \
+    android.hardware.thermal@2.0.vendor:64 \
     android.hardware.weaver-V2-ndk.vendor:64 \
     android.hardware.weaver@1.0.vendor:64 \
     android.hardware.wifi-V1-ndk.vendor:64 \
