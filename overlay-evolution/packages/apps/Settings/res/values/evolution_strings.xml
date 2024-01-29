@@ -5,7 +5,11 @@
 -->
 <resources>
 
-    <string name="build_device_url">https://t.me/VictaraUni</string>
+<!-- Maintainer Name -->
     <string name="build_maintainer_summary">Zahid Choudhry</string>
+<!-- Telegram Support Group -->
+    <string name="build_device_url">https://t.me/VictaraUni</string>
+<!-- Donation Link -->
+    <string name="build_maintainer_donate_url">https://t.me/zahidmgsk</string>
 
 </resources>
